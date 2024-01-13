@@ -4,8 +4,32 @@ layout: page
 
 {{ content }}
 
+<style>
+  /* Custom CSS for three-column layout */
+  .three-column-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+
+  .column {
+    flex: 0 0 30%; /* Adjust the width of each column as needed */
+    box-sizing: border-box;
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .column a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Additional styling can be added based on your preferences */
+</style>
+
 <!-- Full-width image -->
-<img src="path/to/your/image.jpg" alt="Full-width Image" style="width: 100%; height: auto;">
+<img src="assets/home-page-feature.jpg" alt="Full-width Image" style="width: 100%; height: auto;">
 
 <!-- Three-column section -->
 <div class="three-column-section">
