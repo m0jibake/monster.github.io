@@ -6,6 +6,13 @@ layout: page
 
 <style>
   /* Custom CSS for three-column layout */
+  .container-full {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
   .three-column-section {
     display: flex;
     justify-content: space-between;
@@ -20,9 +27,9 @@ layout: page
   }
 
   .column img {
-    width: 50px; /* Adjust the width of the image as needed */
-    height: 50px; /* Adjust the height of the image as needed */
-    border-radius: 50%; /* Optional: Make the image circular */
+    width: 100%; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain the aspect ratio */
+    /* Remove the border-radius property to make the image square */
     margin-bottom: 10px; /* Add margin as needed */
   }
 
@@ -36,7 +43,9 @@ layout: page
 </style>
 
 <!-- Full-width image -->
-<img src="assets/home-page-feature.jpg" alt="Full-width Image" style="width: 100%; height: auto;">
+<div class="container-full">
+  <img src="assets/home-page-feature.jpg" alt="Full-width Image">
+</div>
 
 <!-- Three-column section -->
 <div class="three-column-section">
@@ -58,7 +67,7 @@ layout: page
   </div>
   <div class="column">
     <a href="link-to-page-3">
-      <img src="assets/home-page-feature.jpg.jpg" alt="Image 3">
+      <img src="assets/home-page-feature.jpg" alt="Image 3">
       <i class="fas fa-icon3"></i>
       <h3>Title 3</h3>
       <p>Short description for the third column.</p>
