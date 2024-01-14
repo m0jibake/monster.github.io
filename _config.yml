@@ -22,7 +22,7 @@ author: Arne Meerbott
 navbar-links:
   Blog: "blog"
   Today I learned: "todayilearned"
-  About: "aboutme"
+  About: "about"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
