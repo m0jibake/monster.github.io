@@ -1,1 +1,2 @@
-
+Today I learned about a new python module called **HiPlot**. It uses a simple yet powerful visualization technique to uncover pattern and relationships in a data set. 
+Uses cases are for example to identify the relevant features for a ML algorithm, obtain decision rules for classification or analyzing the impact of hyper-parameters on a key metric. 
