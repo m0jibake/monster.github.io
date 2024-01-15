@@ -10,4 +10,8 @@ It's now very simple to build some hard rules that classify the observations to 
 ![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
 
 Using this we can derive in a very simple way some decision rules that classify the data set quite well: 
--
+- If petal width < 0.8, then classify as class 0.
+- If it's not class 0 and petal length > 5, then classify as class 2.
+- Otherwise classify as class 1. 
+
+Of course this method might fail if the number of dimensions is too large or if the data becomes too comples. But there are certainly cases where this will help you to get a first impression on a data set or to eyeball the rough relationships. 
