@@ -23,6 +23,7 @@ navbar-links:
   Blog: "blog"
   Today I learned: "todayilearned"
   About: "about"
+  Reading: "reading"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
