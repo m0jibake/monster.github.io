@@ -20,7 +20,6 @@ author: Arne Meerbott
 ###############################################
 
 navbar-links:
-  Blog: "blog"
   Today I learned: "todayilearned"
   About: "about"
   Reading: "reading"
@@ -53,7 +52,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   github: m0jibake
-  linkedin: arnemeerbott
+  linkedin: arne-meerbott-b7430511b
   xing: Arne_Meerbott2
 
 # If you want your website to generate an RSS feed, provide a description
